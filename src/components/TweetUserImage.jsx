@@ -1,4 +1,5 @@
 import React from "react";
+import wolf from "./../wolf.png";
 
 const image = {
   height: 50,
@@ -10,6 +11,7 @@ const image = {
 function TweetUserImage(props){
   return(
     <img
+      src={wolf}
       alt="user"
       style={image} />
   );
