@@ -1,8 +1,19 @@
 import React from "react";
+import Suggestions from "./Suggestions";
+
+  const suggestedUsers = {
+    boxSizing: 'border-box',
+    marginLeft: 5
+  }
 
 function SuggestedUsers(){
   return(
-    <p>SuggestedUsers Goes Here</p>
+    <div style={suggestedUsers}>
+      <h4>Suggested</h4>
+      <Suggestions/>
+      <Suggestions/>
+      <Suggestions/>
+    </div>
   );
 }
 

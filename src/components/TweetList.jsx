@@ -1,13 +1,14 @@
 import React from "react";
 import Tweet from "./Tweet";
 
-const style = {
-
+const tweetList = {
+  height: '60vh',
+  marginRight: 5
 }
 
 function TweetList(){
   return(
-    <div>
+    <div style={tweetList}>
       <Tweet/>
       <Tweet/>
       <Tweet/>

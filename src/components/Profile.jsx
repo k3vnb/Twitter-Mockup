@@ -4,7 +4,9 @@ import ProfileBottom from "./ProfileBottom";
 
 const profile = {
   width: '30%',
-  float: 'left'
+  boxSizing: 'border-box',
+  float: 'left',
+  padding: 20
 }
 function Profile(){
   return(
